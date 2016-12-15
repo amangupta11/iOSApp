@@ -1,0 +1,50 @@
+PODS:
+  - AKPickerView (0.2.7)
+  - BeaconCtrl (0.0.1):
+    - KontaktSDK-OLD
+    - SAMCache
+    - UNNetworking
+  - KontaktSDK-OLD (6.2)
+  - MFSideMenu (0.5.5)
+  - SAMCache (0.3.3)
+  - SSKeychain (1.4.0)
+  - TPKeyboardAvoiding (1.3)
+  - UNNetworking (0.7.0)
+
+DEPENDENCIES:
+  - AKPickerView
+  - BeaconCtrl (from `https://github.com/upnext/BeaconCtrl_iOS_SDK.git`, branch `master`)
+  - MFSideMenu
+  - SSKeychain
+  - TPKeyboardAvoiding
+  - UNNetworking (from `https://github.com/upnext/UNNetworking.git`, branch `master`)
+
+EXTERNAL SOURCES:
+  BeaconCtrl:
+    :branch: :master
+    :git: https://github.com/upnext/BeaconCtrl_iOS_SDK.git
+  UNNetworking:
+    :branch: :master
+    :git: https://github.com/upnext/UNNetworking.git
+
+CHECKOUT OPTIONS:
+  BeaconCtrl:
+    :commit: 475d0f51055e849c3ee00249b78d2da9ccc06dc9
+    :git: https://github.com/upnext/BeaconCtrl_iOS_SDK.git
+  UNNetworking:
+    :commit: 7d378f61554eb1485fc0a6ead6501a0d4ba8c7d3
+    :git: https://github.com/upnext/UNNetworking.git
+
+SPEC CHECKSUMS:
+  AKPickerView: 125372e36fcc372216127600a541f14dcdbb7993
+  BeaconCtrl: 49e1f976312e878bdc8be8d2df0101a34a538daf
+  KontaktSDK-OLD: 5a7d59b3e66f57aebcdb045311ded2f64ff1f14b
+  MFSideMenu: 268122e6894f2747fc3a2b48578100b232506c60
+  SAMCache: 790b2623a3e087c903daff872c90c248726c4c82
+  SSKeychain: c71293fa57216a40ab06c23f4085387583293de4
+  TPKeyboardAvoiding: a5138f318c06fb3e151f886e18ce4a72695d9cbe
+  UNNetworking: 1b6f6aa99348a802d92e6b20163576bbbbc5ec18
+
+PODFILE CHECKSUM: 2fc11931ce2f49fc7b0ca4c07408b6d8d42ce195
+
+COCOAPODS: 1.1.1
